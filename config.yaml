@@ -1,0 +1,17 @@
+samples:
+  - SRR23609077
+  - SRR23609078
+  - SRR23609079
+  - SRR23609080
+  - SRR23609081
+  - SRR23609082
+  - SRR23609083
+  - SRR23609084
+  - SRR23609085
+  - SRR23609086
+
+reads: [1, 2]
+
+ref_genome: data/ref_sequence.fasta
+raw_dir: data/raw
+results_dir: results
