@@ -154,7 +154,7 @@ Wykrywanie wariantów (SNP, indel) w oparciu o pliki BAM i genom referencyjny za
 
 ## Podsumowanie
 
-Pipeline realizuje kompleksową analizę danych sekwencjonowania RNA/DNA:
+Pipeline realizuje kompleksową analizę danych sekwencjonowania:
 
 - Kontrola jakości (FastQC + MultiQC)
 - Przycinanie surowych odczytów (Trimmomatic)
@@ -163,5 +163,3 @@ Pipeline realizuje kompleksową analizę danych sekwencjonowania RNA/DNA:
 - Indeksowanie BAM (samtools)
 - Analiza pokrycia genomu (bedtools)
 - Wywołanie wariantów (freebayes)
-
-Wszystkie narzędzia uruchamiane są w dedykowanych kontenerach Docker/Singularity, co zapewnia spójność środowiska i łatwą reprodukowalność.
